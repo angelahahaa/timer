@@ -1,0 +1,103 @@
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 1000px 0; }
+}
+table {
+  border-collapse: collapse;
+	margin: auto;
+}
+
+th, td {
+	margin: auto;
+  text-align: left;
+}
+
+/*tr:nth-child(even){background-color: #f2f2f2}*/
+
+th {
+  background-color: #ff80b3;
+  color: white;
+}
+td {
+  background-color: transparent;
+}
+
+input[type=button]{
+	border-color:transparent;
+	border-width: 1px;
+	border-radius: 2px;
+	margin:2px;
+	background-color: #ffffff;
+	width:30%;
+}
+input[type=button]:hover{
+	background-color: #216fed;
+	color: white;
+	opacity: 1;
+}
+
+#secret{
+	float:top;
+	float: left;
+	opacity: 0;
+	width: 20%;
+}
+
+#secret:hover{
+	 opacity: 1;
+
+}
+
+#myButtons{
+	opacity: 0.7;
+	text-align: center;
+	margin: auto;
+}
+
+#timer{
+  margin: auto;
+  text-align: center;
+  width:150px;
+  padding:3px;
+  font-size:26px;
+  border-radius:8px;
+  border-style:solid;
+  border-color:#ffbae3;
+  background-color:#ffffff;
+  border-width:1px;
+  font-family:sans-serif;
+  color:#ff80b3;
+}
+#display_content{
+    margin: auto;
+    width: 90%;
+    border-width: 3px ;
+    padding: 10px;
+    /*border-radius:8px;*/
+    border-style:solid;
+    border-color:transparent;
+    background-color:#ffffff;
+    border-width:1px;
+    background-size: 1000px;
+    background-image: url(cloud.png);
+    background-position:  0px;
+    background-repeat: repeat-x;
+    animation: animatedBackground 50s linear infinite;
+}
+#my_input{
+    margin: auto;
+    width: 310px;
+    border-width: 3px;
+    padding: 3px;
+    /*border-radius:8px;*/
+    border-style:solid;
+    border-color:transparent;
+    background-color:#caebf2;
+    border-width:1px;
+}
+input[type='text']{
+  opacity: 0.7;
+  border-color:transparent;
+  border-radius: 3px;
+  margin:2px;
+}
